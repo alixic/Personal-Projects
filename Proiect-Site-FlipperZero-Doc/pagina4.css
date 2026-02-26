@@ -1,0 +1,14 @@
+/* pagina4.css */
+
+/* Stilizare antet */
+h1 {
+    color: #28a745;
+    font-size: 24px;
+}
+
+/* Stilizare formular */
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+}

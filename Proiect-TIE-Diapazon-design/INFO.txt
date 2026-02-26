@@ -1,0 +1,1 @@
+A fost introdus folder-ul allegro pentru existenta fisierelor ce contin footprint-uri, pad-uri, fisiere specifice pcb-ului si toate celelalte surse necesare testarii proiectului.

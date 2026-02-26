@@ -1,0 +1,155 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/DIAPAZON880.brd     |
+|                                                    Sat Aug 23 21:31:42 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  +9V          pins ADDED TO this new net
+                                 J1.2           U1.1           U2.14          
+                                 U3.4           U3.10          U3.13          
+                                 U3.14          U3.15          U3.20          
+                                 U3.21          U3.24          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.2           J1.1           U1.8           
+                                 U2.4           U2.6           U2.7           
+                                 U2.8           U2.10          U3.2           
+                                 U3.3           U3.5           U3.6           
+                                 U3.7           U3.8           U3.9           
+                                 U3.11          U3.12          U3.16          
+                                 U3.17          U3.18          U3.19          
+                                 U3.22          VR1.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00452       pins ADDED TO this new net
+                                 C1.1           R1.1           U1.3           
+                                 Y1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00494       pins ADDED TO this new net
+                                 R1.2           R2.2           VR1.1          
+                                 VR1.3          Y1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00555       pins ADDED TO this new net
+                                 R2.1           U1.2           U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01503       pins ADDED TO this new net
+                                 U2.1           U3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02785       pins ADDED TO this new net
+                                 R3.2           U1.6           U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02849       pins ADDED TO this new net
+                                 C2.1           LS1.2          U1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02853       pins ADDED TO this new net
+                                 C2.2           LS1.1          R3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N19077       pins ADDED TO this new net
+                                 U2.2           U2.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N19833       pins ADDED TO this new net
+                                 U1.7           U2.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/DIAPAZON880.brd     |
+|                                                    Sat Aug 23 21:31:42 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N19841       pins ADDED TO this new net
+                                 U2.9           U2.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N19859       pins ADDED TO this new net
+                                 U2.11          U3.23          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N21382       pins ADDED TO this new net
+                                 U1.4           U2.3           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/DIAPAZON880.brd     |
+|                                                    Sat Aug 23 21:31:42 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 4013_9_PTCD4013_4013
+ 4049_4_CD4049_4049
+ 4059_1_CD74HC4059_4059
+ BFC280831659_BFC280831659_BFC28
+ CAP_SMC0603_68P
+ CAP_SMC0805_0.1
+ CON2_JUMPER2_CON2
+ CRYSTAL_P2QUARTZ_3.2768M
+ RESISTOR_SMC1206_1K
+ RESISTOR_SMC1206_1M
+ SPEAKER_JUMPER2_SPEAKER
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/DIAPAZON880.brd     |
+|                                                    Sat Aug 23 21:31:42 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP_SMC0603_68P       
+ C2                  CAP_SMC0805_0.1       
+ J1                  CON2_JUMPER2_CON2     
+ LS1                 SPEAKER_JUMPER2_SPEAKER 
+ R1                  RESISTOR_SMC1206_1M   
+ R2                  RESISTOR_SMC1206_1K   
+ R3                  RESISTOR_SMC1206_1K   
+ U1                  4049_4_CD4049_4049    
+ U2                  4013_9_PTCD4013_4013  
+ U3                  4059_1_CD74HC4059_4059 
+ VR1                 BFC280831659_BFC280831659_BFC28 
+ Y1                  CRYSTAL_P2QUARTZ_3.2768M 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/DIAPAZON880.brd     |
+|                                                    Sat Aug 23 21:31:42 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ LS1.2                          PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ U1.3                           PRIM_FILE      .\pstchip.dat
+ U1.5                           PRIM_FILE      .\pstchip.dat
+ U1.7                           PRIM_FILE      .\pstchip.dat
+ U1.9                           PRIM_FILE      .\pstchip.dat
+ U2.5                           PRIM_FILE      .\pstchip.dat
+ U2.9                           PRIM_FILE      .\pstchip.dat
+ U3.24                          PRIM_FILE      .\pstchip.dat
+ VR1.2                          PRIM_FILE      .\pstchip.dat
+ Y1.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      67                                        |
+|       Comp definitions added:      11                                        |
+|       Components added      :      12                                        |
+|       Slot property added   :      16                                        |
+|                                                                              |
+|   Total ECO changes reported:     106                                        |
+|------------------------------------------------------------------------------|

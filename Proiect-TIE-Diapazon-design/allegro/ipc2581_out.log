@@ -1,0 +1,58 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    IPC2581 Export                                                   )
+(                                                                     )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Fri Sep 05 11:56:58 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+Collecting net list ...
+
+
+
+Collecting package defintions ...
+
+WARNING: No PLACE_BOUND outline found for the package "PROIECT-GAURA-PRINDERE", IGNORED.
+
+
+Collecting component descriptions ...
+
+WARNING: No PLACE_BOUND outline found for the symbol located at (10450.000, 10875.000), (SymbolName="PROIECT-GAURA-PRINDERE"), IGNORED.
+WARNING: No PLACE_BOUND outline found for the symbol located at (10450.000, 12750.000), (SymbolName="PROIECT-GAURA-PRINDERE"), IGNORED.
+WARNING: No PLACE_BOUND outline found for the symbol located at (12700.000, 10875.000), (SymbolName="PROIECT-GAURA-PRINDERE"), IGNORED.
+WARNING: No PLACE_BOUND outline found for the symbol located at (12700.000, 12750.000), (SymbolName="PROIECT-GAURA-PRINDERE"), IGNORED.
+
+
+Collecting BOM items ...
+
+
+
+Property configuration file: C:/Users/BY ASUS/Documents/proiect_tie_diapazon/allegro/ipc2581_attr_config.atr
+IPC2581 file: C:/Users/BY ASUS/Documents/proiect_tie_diapazon/allegro/diapazon-output-ipc2581.xml
+IPC2581 version: IPC2581-B
+BRD file: C:/Users/BY ASUS/Documents/proiect_tie_diapazon/allegro/DIAPAZON880cpy2.brd
+IPC2581 units: MILLIMETER
+Global package pin1 orientation: OTHER
+Default symbol height: 3.81
+Export drill information?: YES
+Export BOM information?: YES
+Export component descriptions?: YES
+Export component packages?: YES
+Export land patterns?: YES
+Export device descriptions?: YES
+Export net list?: YES
+Export hierarchical layer/stack instance?: NO
+Export Outer Copper Layers?: YES
+Export Inner Layers?: YES
+Export Documentation Layers?: YES
+Export Miscellaneous Image Layers?: YES
+Export SolderMask/SolderPaste Legend Layers?: YES
+Export vector text?: YES
+Export cavities?: NO
+Export padstack definitions?: NO
+Export zip file?: YES
+a2ipc2581 complete.

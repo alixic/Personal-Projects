@@ -1,0 +1,13 @@
+/* pagina2.css */
+
+/* Stilizare antet */
+h1 {
+    color: #0074d9;
+    font-size: 24px;
+}
+
+/* Stilizare paragrafe */
+p {
+    color: #333;
+    font-size: 16px;
+}

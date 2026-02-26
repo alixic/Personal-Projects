@@ -1,0 +1,23 @@
+Proiect TIE "Diapazon Electronic"  Revised: Friday, May 09, 2025
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials            May 9,2025      16:42:16	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	2	C1,C2	68p
+2	1	C3	0.1
+3	1	LS1	SPEAKER
+4	1	R1	1M
+5	2	R2,R3	1K
+6	3	U1,U5,U6	4049
+7	2	U2,U4	4013
+8	1	U3	4059
+9	1	Y1	3.2768M

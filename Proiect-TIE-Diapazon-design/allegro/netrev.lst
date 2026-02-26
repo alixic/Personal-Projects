@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : DIAPAZON880.brd                               )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Sat Aug 23 21:31:42 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\BY ASUS\DOCUMENTS\PROIECT_TIE_DIAPAZON\allegro'
+Design Directory:            'C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro'
+Old design name:             'C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/DIAPAZON880.brd'
+New design name:             'C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/DIAPAZON880.brd'
+
+CmdLine: netrev.exe -y 1 -n -i C:\USERS\BY ASUS\DOCUMENTS\PROIECT_TIE_DIAPAZON\allegro C:\USERS\BY ASUS\DOCUMENTS\PROIECT_TIE_DIAPAZON\allegro\DIAPAZON880.brd C:\USERS\BY ASUS\DOCUMENTS\PROIECT_TIE_DIAPAZON\allegro\DIAPAZON880.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/pstchip.dat 
+   Finished reading C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/pstchip.dat (00:00:00.04)
+Starting to read C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/pstxprt.dat 
+   Finished reading C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/pstxnet.dat 
+   Finished reading C:/USERS/BY ASUS/DOCUMENTS/PROIECT_TIE_DIAPAZON/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           D:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           D:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Aug 23 21:31:42 2025
+   DESIGN NAME : 'DIAPAZON880'
+   PACKAGING ON Jul 30 2017 03:29:02
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:58
+elapsed time  0:00:01
+

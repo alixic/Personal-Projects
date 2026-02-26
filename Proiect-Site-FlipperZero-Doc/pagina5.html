@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            height: 100vh; /* Make sure the body takes up the full viewport height */
+            background-color: #1F1F1F;
+            color: #FFFFFF;
+            font-family: 'Cascadia Code', monospace;
+        }
+        .section {
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .section img {
+            object-fit: cover;
+            border: 5px solid #333;
+        }
+        
+        
+        .navbar {
+            width: 200px;
+            height: 100vh;
+            background-color: #333;
+            padding-top: 20px;
+            position: fixed;
+        }
+        .navbar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        
+        
+        
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Meniu</a>
+        <a href="pagina1.html">Despre</a>
+        <a href="pagina2.html">Functionare</a>
+        <a href="pagina3.html">Componente</a>
+        <a href="pagina4.html">Utilizare</a>
+        <a href="pagina5.html">Imagini</a>
+		<a href="formular.html">Formular</a>
+    </div>
+
+ 
+    <div class="section">
+        &nbsp;<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font style="font-size: 17pt">Imagini sugestive pentru <i>Flipper Zero</i></font></b></p>
+		<p>&nbsp;</p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="imagine1.jpeg" alt="Image 2" width="50%" height="46%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <p>&nbsp;</div>
+    <div class="section">
+        <img src="imagine2.png" alt="Image 2" width="55%" height="50%"></div>
+    <div class="section">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="imagine3.png" alt="Image 3"></div>
+    <div class="section">
+        &nbsp;&nbsp;
+        <img src="imagine4.jpg" alt="Image 4" width="75%" height="75%">
+    </div>
+</body>
+</html>

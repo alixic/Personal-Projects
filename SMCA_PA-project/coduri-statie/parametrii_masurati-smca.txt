@@ -1,0 +1,19 @@
+Temperatura
+Presiune
+Umiditate
+Curent consumat prin circuit.
+Tensiunea la bornele panoului solar.
+Putere consumata de la panoul solar = puterea generata
+Luminozitate / intensitate luminoasa - panou solar.
+Zgomot - modul cu microfon.
+Nivel concentratie gaze toxice : dioxid de carbon, monoxid, alte(etc.).
+Tensiunea la bornele acumulatorilor cu litiu.
+Capacitatea acumulatorilor.
+Capacitatea bateriei alimentatoare a sistemului de receptie.
+Uptime.
+Data-ora.
+Nr de resetari accidentale cauzate de subtensiune / nefunctionalitate
+(masurarea se va face prin comutarea unui switch care va activa functia de numarare si va salva in memoria interna
+- de fiecare data acest numar este incrementat la pornirea sistemului / orice resetare).
+Socuri mecanice - statie - senzor de vibratie.
+

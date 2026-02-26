@@ -1,0 +1,10 @@
+#  View replacement method:
+#  Complete
+
+color -globvis off
+color -vis "BOARD GEOMETRY/DESIGN_OUTLINE"
+color -vis "BOARD GEOMETRY/SOLDERMASK_TOP"
+color -vis "DRC ERROR CLASS/SOLDERMASK_TOP"
+color -vis "PACKAGE GEOMETRY/SOLDERMASK_TOP"
+color -vis "PIN/SOLDERMASK_TOP"
+color -vis "VIA CLASS/SOLDERMASK_TOP"

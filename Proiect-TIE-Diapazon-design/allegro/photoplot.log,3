@@ -1,0 +1,247 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : DIAPAZON880cpy2.brd                           )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Wed Sep 03 14:47:21 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOPL >
+     TO FILE < C:/Users/BY ASUS/Documents/proiect_tie_diapazon/allegro/TOPL.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Null REGULAR-PAD specified for padstack C160_H320 at (11296.85 12500.00).
+    WARNING: rectangle or unfilled shape composed 0 width line found at (12859.00 10735.00)
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01600                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.07677                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.06000                     0.000 NO     DARK 
+  RECTANGLE  0.03800     x 0.03200       0.000 NO     DARK 
+  RECTANGLE  0.06100     x 0.02360       0.000 NO     DARK 
+  RECTANGLE  0.06700     x 0.02750       0.000 NO     DARK 
+  RECTANGLE  0.07870     x 0.02360       0.000 NO     DARK 
+  RECTANGLE  0.21650     x 0.15550      90.000 NO     DARK 
+
+     TOPL created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOML >
+     TO FILE < C:/Users/BY ASUS/Documents/proiect_tie_diapazon/allegro/BOTTOML.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Null REGULAR-PAD specified for padstack C160_H320 at (11296.85 12500.00).
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01600                                  DARK 
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.07677                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+
+     BOTTOML created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < C:/Users/BY ASUS/Documents/proiect_tie_diapazon/allegro/SOLDERMASK_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.04400                                  DARK 
+  CIRCLE     0.07500                                  DARK 
+  CIRCLE     0.15000                                  DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.06000                     0.000 NO     DARK 
+  RECTANGLE  0.03800     x 0.03200       0.000 NO     DARK 
+  RECTANGLE  0.06100     x 0.02360       0.000 NO     DARK 
+  RECTANGLE  0.06700     x 0.02750       0.000 NO     DARK 
+  RECTANGLE  0.07870     x 0.02360       0.000 NO     DARK 
+  RECTANGLE  0.21650     x 0.15550      90.000 NO     DARK 
+
+     SOLDERMASK_TOP created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < C:/Users/BY ASUS/Documents/proiect_tie_diapazon/allegro/SOLDERMASK_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Null REGULAR-PAD specified for padstack C160_H320 at (11296.85 12500.00).
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.02400                                  DARK 
+  CIRCLE     0.06000                                  DARK 
+  CIRCLE     0.07677                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+
+     SOLDERMASK_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREEN_TOP >
+     TO FILE < C:/Users/BY ASUS/Documents/proiect_tie_diapazon/allegro/SILKSCREEN_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (10400.00 11447.50)
+           ... ignored.
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+    WARNING: 0 width line found at (11350.39 11593.31)
+           ... ignored.
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+
+     SILKSCREEN_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOARD_CUTOUT-P >
+     TO FILE < C:/Users/BY ASUS/Documents/proiect_tie_diapazon/allegro/BOARD_CUTOUT-P.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     BOARD_CUTOUT-P created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOPL created with warnings
+        BOTTOML created with warnings
+        SOLDERMASK_TOP created.
+        SOLDERMASK_BOTTOM created with warnings
+        SILKSCREEN_TOP created with warnings
+        BOARD_CUTOUT-P created.
+
+ ARTWORK had warnings

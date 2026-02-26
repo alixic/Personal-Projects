@@ -1,0 +1,353 @@
+#include <SPI.h>
+#include <nRF24L01.h>
+#include <RF24.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+// directive preprocesor:
+
+/*
+#define LED_1 
+#define LED_2
+#define LED_3
+*/
+
+#define BUZZER 16
+
+#define BTN_UP 36
+#define BTN_LEFT 39
+#define BTN_CENTER 35
+#define BTN_RIGHT 33
+#define BTN_DOWN 27
+
+//ECRAN OLED
+//#define OLED_RST ?
+
+#define SCREEN_WIDTH 128 // OLED display width, in pixels
+#define SCREEN_HEIGHT 64 // OLED display height, in pixels
+
+
+// intrari in decodificatorul 1 bcd-7seg
+// #define LED_DISPLAY1_p1
+// #define LED_DISPLAY1_p2
+// #define LED_DISPLAY1_p3
+// #define LED_DISPLAY1_p4
+
+// intrari in decodificatorul 2 bcd-7seg
+// #define LED_DISPLAY2_p1
+// #define LED_DISPLAY2_p2
+// #define LED_DISPLAY2_p3
+// #define LED_DISPLAY2_p4
+
+
+// #define VBAT_SENS 
+#define SPI_CSN 15
+#define CE_PIN 4
+//#define OLED_RST 17
+
+// Obiect ecran OLED (SSD1306)
+Adafruit_SSD1306 OLED(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire);
+
+// Obiect nrf24l01
+RF24 radio(CE_PIN, SPI_CSN); // CE, CSN
+const byte add[6] = "10101";
+
+
+int btn_pins[5]={36,39,35,33,27};
+
+
+const char* mainMenu[] = {
+  "Setari",
+  "Masuratori",
+  "Conexiune Statie",
+  "Info. hardware",
+  "Alte optiuni"
+};
+
+const char* SettingsMenu[] = {
+  "Buzzer []",
+  "LED conexiune []",
+  "LED activitate []",
+  "Numarator resetari []",
+  "Stocare Date in Flash []"
+};
+
+const char* MeasureMenu[] = { // Niveluri / procentaje / concentratii
+  "Meniu Masurari 1",
+  "Meniu Masurari 2",
+  "Meniu Masurari 3",
+  "Meniu Masurari 4",
+};
+
+
+const char* MeasureSubMenu1[] = { // Niveluri / procentaje / concentratii
+  "CO2: ",
+  "CO: ",
+  "Fum/gaze: ", // MQ-135 and MQ-2
+  "Metan: ", // gaze naturale / metan
+  "Gaze comune: "
+};
+
+
+const char* MeasureSubMenu2[] = { // Parametrii ambientali.
+  "Temperatura: ",
+  "Presiune: ",
+  "Umiditate: ",
+  "Intensitate luminoasa: ", // procente / candela
+  "Zgomot: ",
+  "Socuri: "
+};
+
+
+const char* MeasureSubMenu3[] = {
+  "Tensiune (PS):",
+  "Curent: ",
+  "Putere consumata: ",
+  "Capacitate Acc. : ",
+  "Tensiune Acc. :"
+};
+
+
+const char* HWInfoMenu[] = {
+  "Data: ",
+  "Ora: ",
+  "Uptime: ",
+  "VBAT. : "
+  // + descriere sistem.
+};
+
+
+const char* ConnectionMenu[] = {
+    "Stare: ", //activ / inactiv
+    "Putere: ",
+    "Distanta: ",
+    "Mod: ", // R - receptor / T - transmitator / Sleep.
+    "Viteza: "
+};
+
+
+const int MLEN = sizeof(mainMenu) / sizeof(mainMenu[0]);
+int mindex = 0; //menu index
+
+void setup() {
+
+    Serial.begin(115200);
+
+    if (!OLED.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+        Serial.println("OLED allocation failed");
+        while (1);
+    }
+
+    radio.begin();
+    pinMode(BUZZER, OUTPUT);
+
+    for(int i=0;i<5;i++){
+        pinMode(*(btn_pins+i), INPUT);
+    }
+
+   // pinMode(VBAT_SENS, INPUT);
+
+    OLED.clearDisplay();
+    OLED.setTextSize(1);
+    OLED.setTextColor(SSD1306_WHITE);
+
+    for(int i=0;i<128;i++){
+        OLED.drawPixel(i,1,WHITE);
+    }
+
+    for(int i=64;i>0;i--){
+        OLED.drawPixel(128,i,WHITE);
+    }
+
+    for(int i=128;i>0;i--){
+        OLED.drawPixel(i,64,WHITE);
+    }
+
+    for(int i=64;i>0;i--){
+        OLED.drawPixel(1,i,WHITE);
+    }
+
+    OLED.setCursor(4,2);     
+    OLED.println("Terminal de receptie SMCA-PA");
+    OLED.println("");
+    OLED.display();
+
+
+    for(int i=29;i<36;i++){
+        OLED.setCursor(i,80);
+        OLED.print("*");
+        delay(500);
+    }    
+
+}
+
+
+void SerialState(){
+    for(int i=0;i<5;i++){
+        Serial.print(digitalRead(btn_pins[i]));
+        Serial.print(" ");
+    }
+    Serial.println("");
+    for(int i=0;i<20;i++){
+        if(!digitalRead(BTN_CENTER)){
+            digitalWrite(16, HIGH);
+            delay(10);
+        }
+        else{
+            digitalWrite(16, LOW);
+            delay(60);
+        }
+        delay(10);
+    }
+}
+
+
+/*
+void nrfMode(int mode_id){ // 0 - receive , 1 - transmit
+    if(!mode_id){
+      radio.openReadingPipe(0, address);
+      radio.startListening();
+    }
+    else if(mode_id){
+      radio.openWritingPipe(add);
+      radio.stopListening();
+      //radio.setPALevel(RF24_PA_MIN);
+    }
+}
+*/
+
+
+void sendData(char data[]){
+    radio.openWritingPipe(add);
+    radio.stopListening();
+
+    radio.write(&data, sizeof(data));
+    delay(1000);
+}
+
+
+void receiveData(){
+    radio.openReadingPipe(0, add);
+    radio.startListening();
+
+    if (radio.available()){
+        char text[200] = {0};
+        radio.read(&text, sizeof(text));
+        
+        //Serial.println(text);
+    }
+}
+
+
+void displayMenu() {
+  
+  OLED.clearDisplay();
+  OLED.setCursor(0,30);
+  OLED.print("MENIU");
+  OLED.setCursor(2,25);
+  OLED.print("PRINCIPAL");
+  //OLED.println("Main Menu");
+
+  for (int i = 0; i < MLEN; i++) {
+    if (i == mindex) {
+      OLED.print("> ");
+    } 
+    else {
+      OLED.print("  ");
+    }
+    OLED.println(mainMenu[i]);
+  }
+
+  OLED.display();
+}
+
+
+
+
+void displaySM(const char** subm_name) {
+  OLED.clearDisplay();
+  OLED.setTextSize(1);
+  OLED.setCursor(0, 0);
+  OLED.print(">> ");
+  OLED.println("Selected!");
+  OLED.display();
+
+  for (int i = 0; i < MLEN; i++) {
+    OLED.println(subm_name[i]);
+  }
+  delay(1000); // Wait and return to main menu
+}
+
+
+
+void displayMM() {  // - measure menu 1
+  
+  mindex=0;
+  OLED.clearDisplay();
+  OLED.setCursor(27,1);
+  OLED.print("Parametrii ");
+  OLED.setCursor(25,2);
+  OLED.print("PRINCIPAL");
+
+  for (int i = 0; i < MLEN; i++) {
+    if (i == mindex) {
+      OLED.print("> ");
+    } 
+    else {
+      OLED.print("  ");
+    }
+    OLED.println(MeasureMenu[i]);
+  }
+
+  OLED.display();
+}
+
+
+
+
+
+
+void inputProcessing(){
+
+    if(!digitalRead(BTN_DOWN)){
+        mindex++;
+        if(mindex>=MLEN){
+            mindex=0;
+        }
+    }
+
+    if(!digitalRead(BTN_UP)){
+        mindex--;
+        if(mindex<0){
+            mindex=MLEN-1;
+        }
+    }
+
+    if(!digitalRead(BTN_CENTER)){
+        switch(mindex){
+             case 0:
+                displaySM(SettingsMenu);
+                break;
+            case 1:
+                displayMM();
+                break;
+            case 2:
+                displaySM(HWInfoMenu);
+                break;
+            case 3:
+                displaySM(ConnectionMenu);
+                break;
+            default:
+                    break;
+            }
+    }
+
+}
+
+
+
+void loop() {
+    displayMenu();
+    inputProcessing();
+}

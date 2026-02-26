@@ -1,0 +1,158 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Aug-23-2025 at 19:21:45 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='DIAPAZON880';
+ POST_TIME='Jul 30 2017 03:29:02';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP_SMC0603_68P':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS283@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins283@discrete.\cap.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins283@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP_SMC0805_0.1':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS2874@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins2874@discrete.\cap.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins2874@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS28433@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins28433@connector.\con2.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins28433@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS1 'SPEAKER_JUMPER2_SPEAKER':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS2833@DISCRETE.SPEAKER.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins2833@discrete.\speaker.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins2833@discrete.\speaker.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RESISTOR_RES600_1M':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS333@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins333@discrete.\resistor.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins333@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RESISTOR_RES600_1K':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS349@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins349@discrete.\resistor.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins349@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RESISTOR_RES600_1K':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS2798@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins2798@discrete.\resistor.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins2798@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 '4049_4_CD4049_4049':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS28190@DIAPAZON880.4049_4.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins28190@diapazon880.\4049_4.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins28190@diapazon880.\4049_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS415@DIAPAZON880.4049_4.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins415@diapazon880.\4049_4.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins415@diapazon880.\4049_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS2719@DIAPAZON880.4049_4.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins2719@diapazon880.\4049_4.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins2719@diapazon880.\4049_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS2757@DIAPAZON880.4049_4.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins2757@diapazon880.\4049_4.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins2757@diapazon880.\4049_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U2 '4013_9_PTCD4013_4013':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS16935@DIAPAZON880.4013_9.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins16935@diapazon880.\4013_9.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins16935@diapazon880.\4013_9.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS18340@DIAPAZON880.4013_9.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins18340@diapazon880.\4013_9.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins18340@diapazon880.\4013_9.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U3 '4059_1_CD74HC4059_4059':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS1320@DIAPAZON880.4059_1.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins1320@diapazon880.\4059_1.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins1320@diapazon880.\4059_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ VR1 'BFC280831659_BFC280831659_BFC28':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS14776@BFC280831659.BFC280831659.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins14776@bfc280831659.\bfc280831659.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins14776@bfc280831659.\bfc280831659.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'CRYSTAL_P2QUARTZ_3.2768M':;
+
+SECTION_NUMBER 1
+ '@DIAPAZON880.SCHEMATIC1(SCH_1):INS258@DISCRETE.CRYSTAL.NORMAL(CHIPS)':
+ C_PATH='@diapazon880.schematic1(sch_1):ins258@discrete.\crystal.normal\(chips)',
+ P_PATH='@diapazon880.schematic1(sch_1):page1_ins258@discrete.\crystal.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipper Zero - Coca Alin Petru</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<style>
+	
+	
+    img {
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 37%;
+	height: auto;
+	
+    }
+	
+	imgfl {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 37%;
+    height: auto;
+    max-width: 100%;
+    }
+	
+</style>
+
+
+
+<script>
+        function afiseazaGif() {
+		
+            var img = document.getElementById("flipperImg");
+            img.src = "Nv2.gif"; // Înlocuiește cu calea către fișierul gif dorit
+			setTimeout(afiseazaGif(),1000);
+			img.src = "indexflipper.png";
+        }
+</script>
+
+
+
+<body style="background-color:#FF8C00;">
+   
+	 
+    <header>
+	
+        <h1 style="font-size:45px;"><i>Flipper Zero</i></h1>
+		
+		
+        <nav>
+            <ul>
+                <li><a href="pagina1.html"> <h1 style="font-size:18px;">Despre</h1>  </a></li>
+                <li><a href="pagina2.html">  <h1 style="font-size:18px;">Funcționare</h1>  </a></li>
+                <li><a href="pagina3.html">  <h1 style="font-size:18px;">Componente</h1> </a></li>
+                <li><a href="pagina4.html"> <h1 style="font-size:18px;">Utilizare</h1> </a></li>
+				<li><a href="pagina5.html"> <h1 style="font-size:18px;">Imagini</h1> </a></li>
+				<li><a href="formular.html"> <h1 style="font-size:18px;">Formular</h1> </a></li>
+				<h1 style="font-size:18px;"></h1> </a></li>
+            </ul>
+        </nav>
+    </header>
+	
+	
+	<img id="flipperImg" src="indexflipper.png" alt="Flipper Zero" onclick="afiseazaGif()" width="37%" height="665"><i>&nbsp;&nbsp;&nbsp;&nbsp; <marquee behavior="alternate" loop="1" scrollamount="7">by Coca Alin Petru</marquee>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </i>
+	
+</body>
+</html>

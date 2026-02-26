@@ -1,0 +1,123 @@
+Wire List
+
+Proiect TIE "Diapazon Electronic"             Revised: Wednesday, August 27, 2025
+Coordonator : prof. dr. ing. Norocel Dragos CoRevision: Studenti : Coca Alin Petru, Condrat Ioan-Andrei
+
+
+
+
+
+
+<<< Component List >>>
+68p                           C1        smc0603
+0.1                           C2        smc0805
+CON2                          J1        jumper2
+SPEAKER                       LS1       jumper2
+1M                            R1        smc1206
+1K                            R2        smc1206
+1K                            R3        smc1206
+4049                          U1        CD4049
+4013                          U2        PTCD4013
+4059                          U3        CD74HC4059
+BFC280831659                  VR1       BFC280831659
+3.2768M                       Y1        P2QUARTZ
+
+<<< Wire List >>>
+
+  NODE  REFERENCE    PIN #   PIN NAME           PIN TYPE       PART VALUE
+
+[00001] +9V
+        U1              1       VCC             Power          4049
+        U3              4       J2              Input          4059
+        U3              21      J6              Input          4059
+        U3              20      J7              Input          4059
+        U3              15      J12             Input          4059
+        U3              10      J13             Input          4059
+        U3              14      KA              Input          4059
+        U3              13      KB              Input          4059
+        U3              24      VCC             Power          4059
+        U2              14      VDD             Power          4013
+        J1              2       2               Passive        CON2
+
+[00002] GND
+        C1              2       2               Passive        68p
+        U1              8       VSS             Power          4049
+        U3              3       J1              Input          4059
+        U3              5       J3              Input          4059
+        U3              6       J4              Input          4059
+        U3              22      J5              Input          4059
+        U3              19      J8              Input          4059
+        U3              18      J9              Input          4059
+        U3              17      J10             Input          4059
+        U3              16      J11             Input          4059
+        U3              9       J14             Input          4059
+        U3              8       J15             Input          4059
+        U3              7       J16             Input          4059
+        U3              2       LEN             Input          4059
+        U3              11      KC              Input          4059
+        U3              12      GND             Power          4059
+        VR1             2       S               Passive        BFC280831659
+        U2              6       S_A             Input          4013
+        U2              7       GND             Power          4013
+        U2              4       R_A             Input          4013
+        U2              8       S_B             Input          4013
+        U2              10      R_B             Input          4013
+        J1              1       1               Passive        CON2
+
+[00003] N00452
+        Y1              2       2               Passive        3.2768M
+        C1              1       1               Passive        68p
+        R1              1       1               Passive        1M
+        U1              3       I_A             Input          4049
+
+[00004] N00494
+        Y1              1       1               Passive        3.2768M
+        R1              2       2               Passive        1M
+        R2              2       2               Passive        1K
+        VR1             1       R_1             Passive        BFC280831659
+        VR1             3       R_2             Passive        BFC280831659
+
+[00005] N00555
+        R2              1       1               Passive        1K
+        U1              5       I_B             Input          4049
+        U1              2       O_A             Output         4049
+
+[00006] N01503
+        U3              1       CLK             Input          4059
+        U2              1       Q_A             Output         4013
+
+[00007] N02785
+        U1              6       O_C             Output         4049
+        U1              9       I_D             Input          4049
+        R3              2       2               Passive        1K
+
+[00008] N02849
+        U1              10      O_D             Output         4049
+        LS1             2       2               Passive        SPEAKER
+        C2              1       1               Passive        0.1
+
+[00009] N02853
+        R3              1       1               Passive        1K
+        LS1             1       1               Passive        SPEAKER
+        C2              2       2               Passive        0.1
+
+[00010] N19077
+        U2              5       D_A             Input          4013
+        U2              2       Q\_A            Output         4013
+
+[00011] N19833
+        U1              7       I_C             Input          4049
+        U2              13      Q_B             Output         4013
+
+[00012] N19841
+        U2              9       D_B             Input          4013
+        U2              12      Q\_B            Output         4013
+
+[00013] N19859
+        U3              23      NOUT            Output         4059
+        U2              11      CLK_B           Input          4013
+
+[00014] N21382
+        U1              4       O_B             Output         4049
+        U2              3       CLK_A           Input          4013
+

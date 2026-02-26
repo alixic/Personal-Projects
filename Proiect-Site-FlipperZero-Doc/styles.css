@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Stilizare generală */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Stilizare antet (header) */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Stilizare meniu de navigare */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Stilizare link-uri */
+a {
+    color: #0074d9;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}

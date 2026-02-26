@@ -1,0 +1,16 @@
+- inlocuirea pinilor de vin (tensiune de 5V, disponibila doar atunci cand este alimentata
+placa prin port-ul usb) cu 3V3IN - pentru a avea mereu 5V.
+
+- Imbunatatirea footprint-urilor si verificarea acestora (ex: adaugarea semnului de polaritate pentru
+condensatoare).
+
+- Referinte de silkscreen pentru gpio-uri - pinout.
+
+- Repozitionarea  blocurilor de componente ce indeplinesc anumite functii pe placa
+intr-un mod optim, fara distante mari intre cele invecinate.
+
+- Inlocuirea portului micro-USB cu unul fara cei 4 pini de suport si insertie cu unul
+clasic utilizat in mai multe echipamente si adaugarea unui port USB-C in design SI MONTAREA 
+ACESTORA LA MARGINEA PLACII !!!!!!!!!!!!!!!!!!!!
+
+- Modificarea latimii traseelor conform regulilor de design.

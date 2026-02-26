@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente Flipper Zero</title>
+    <meta http-equiv="Content-Language" content="en-us">
+    <style>
+        body {
+            display: flex;
+            background-color: #1F1F1F;
+            color: #FFFFFF;
+            margin: 0;
+            font-family: 'Cascadia Code', monospace;
+        }
+        .navbar {
+            width: 200px;
+            height: 100vh;
+            background-color: #333;
+            padding-top: 20px;
+            position: fixed;
+        }
+        .navbar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .sidebar-image {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            width: 150px;
+            height: auto;
+            padding: 10px;
+        }
+        .sidebar-image img {
+            width: auto;
+            height: 200px;
+            display: block;
+        }
+        .content p {
+            font-size: 12pt; /* Reduced font size */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Meniu</a>
+        <a href="pagina1.html">Despre</a>
+        <a href="pagina2.html">Functionare</a>
+        <a href="pagina3.html">Componente</a>
+        <a href="pagina4.html">Utilizare</a>
+        <a href="pagina5.html">Imagini</a>
+		<a href="formular.html">Formular</a>
+    </div>
+    <div class="content">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FFFFFF" style="font-size: 20pt"><b>Componente interne </b>din <i>cadrul Flipper Zero</i></font></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FFFFFF" style="font-size: 12pt" id="section1"><b>1</b>. Placa de baza (cablajul principal) compusa dintr-un microcontroller STM32, display-ul monocrom, mufa de alimentare USB-C, modul radio sub 1GHz si butoane. </font></p>
+        <p><font color="#FFFFFF" style="font-size: 12pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Microcontroller-ul STM32 este bazat pe arhitectura ARM, ce incorporeaza doua nuclee, 256KB de RAM si 1024KB de memorie(stocare) in Flash. (</font><span data-slate-fragment="JTVCJTdCJTIyaWQlMjIlM0ElMjJYdVphRWM0MjJIZmR4SXV6MlpmMzMlMjIlMkMlMjJ0eXBlJTIyJTNBJTIyaDMlMjIlMkMlMjJjaGlsZHJlbiUyMiUzQSU1QiU3QiUyMnRleHQlMjIlM0ElMjJTVE0zMldCNTUlMjIlN0QlNUQlN0QlNUQ=" style="white-space: pre;">STM32WB55)</span></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FFFFFF" style="font-size: 12pt" id="section2"><b>2</b>. PCB IButton : Aceast cablaj are pini pentru iButton, buzzer si pentru un transmitator-receptor infrarosu.</font></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FFFFFF" style="font-size: 12pt" id="section3"><b>3</b>. PCB NFC+RFID : Este o alta sectiune de cablaj ce integreaza componentele necesare tehnologiilor RFID (pe 125kHz) si NFC (pe 13.56 MHz).</font></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FFFFFF" style="font-size: 12pt" id="section4"><b>4</b>. PCB cu antena : Utilizat pentru tehnologiile NFC si RFID, localizata sub intregul cablaj / sistem.</font></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FFFFFF" style="font-size: 12pt" id="section5"><b>5</b>. Carcasa pentru stocarea si protejarea componentelor de praf, umiditate,etc.</font></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FFFFFF" style="font-size: 12pt" id="section6"><b>6</b>. Baterie de 2100 mAh.</font></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 12pt"><b>7</b></span><font color="#FFFFFF" style="font-size: 12pt" id="section7">. GPIO headers.</font></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FFFFFF" style="font-size: 12pt" id="section8"><b>8</b>. Slot card MicroSD. </font></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 12pt">&nbsp;9. Motor pentru vibratii.</span></p><div style="position: absolute; width: 685px; height: 264px; z-index: 1; left: 711px; top: 408px" id="layer1">
+			<img src="file:///C:/Users/BY%20ASUS/AppData/Local/Packages/Microsoft.Windows.Photos_8wekyb3d8bbwe/TempState/ShareServiceTempFolder/imagini-componente2.jpeg" width="578" height="265"><p>&nbsp;</div>
+		<p>&nbsp;</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+\t (00:00:08) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:08)     Journal start - Fri Sep 05 11:54:17 2025
+\t (00:00:08)         Host=DESKTOP-V6G9NAR User=BY ASUS Pid=15464 CPUs=8
+\t (00:00:08) CmdLine= D:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:08) 
+   (00:00:08) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\d (00:00:09) Design opened: C:/Users/BY ASUS/Documents/proiect_tie_diapazon/allegro/DIAPAZON880cpy2.brd
+\i (00:00:09) trapsize 2878
+\i (00:00:09) trapsize 2947
+\i (00:00:09) trapsize 2947
+\i (00:00:10) generaledit 
+\i (00:00:14) artwork 
+\i (00:00:15) setwindow form.film_control
+\i (00:00:15) FORM film_control cancel  
+\i (00:00:15) setwindow pcb
+\i (00:00:15) generaledit 
+\i (00:00:17) nctape_full 
+\i (00:00:32) setwindow form.nc_drill
+\i (00:00:32) FORM nc_drill tape_name diapazon_ncdrill.drl 
+\i (00:00:32) FORM nc_drill execute  
+\t (00:00:32) Starting Generating NC Drill...
+\i (00:00:37) FORM nc_drill parameters  
+\i (00:00:39) setwindow form.nc_parameters
+\i (00:00:39) FORM nc_parameters cancel  
+\i (00:00:40) setwindow form.nc_drill
+\i (00:00:40) FORM nc_drill cancel  
+\i (00:00:40) setwindow pcb
+\i (00:00:40) generaledit 
+\i (00:00:45) ipc2581 out 
+\i (00:00:54) setwindow form.ipc2581_out
+\i (00:00:54) FORM ipc2581_out unit Millimeter 
+\i (00:01:06) FORM ipc2581_out filename diapazon-output-ipc2581 
+\i (00:01:06) FORM ipc2581_out export  
+\i (00:01:11) fillin no 
+\i (00:01:11) FORM ipc2581_out ipc2581_mapping  
+\t (00:01:11) More than 2 outer copper layers were selected.
+
+Please fix the layer mapping!
+\i (00:01:13) fillin confirm
+\i (00:01:15) setwindow form.ipc2581map
+\i (00:01:15) FORM ipc2581map ipc2581_mapping cell 1,2 
+\i (00:01:15) FORM ipc2581map ipc2581_mapping change 1,2 no 
+\t (00:01:15) More than 2 outer copper layers were selected.
+
+Please fix the layer mapping!
+\i (00:01:16) fillin confirm
+\i (00:01:18) FORM ipc2581map ipc2581_mapping cell 8,2 
+\i (00:01:18) FORM ipc2581map ipc2581_mapping change 8,2 no 
+\t (00:01:18) More than 2 outer copper layers were selected.
+
+Please fix the layer mapping!
+\i (00:01:18) fillin confirm
+\i (00:01:19) FORM ipc2581map ipc2581_mapping cell 7,2 
+\i (00:01:19) FORM ipc2581map ipc2581_mapping change 7,2 no 
+\i (00:01:21) FORM ipc2581map ipc2581_mapping cell 3,2 
+\i (00:01:21) FORM ipc2581map ipc2581_mapping change 3,2 no 
+\i (00:01:21) FORM ipc2581map ipc2581_mapping cell 2,2 
+\i (00:01:21) FORM ipc2581map ipc2581_mapping change 2,2 no 
+\i (00:01:28) FORM ipc2581map ipc2581_mapping cell 1,2 
+\i (00:01:28) FORM ipc2581map ipc2581_mapping change 1,2 yes 
+\i (00:01:29) FORM ipc2581map ipc2581_mapping change 1,2 no 
+\i (00:01:30) FORM ipc2581map ipc2581_mapping cell 7,2 
+\i (00:01:30) FORM ipc2581map ipc2581_mapping change 7,2 yes 
+\i (00:01:32) FORM ipc2581map ipc2581_mapping change 7,2 no 
+\i (00:01:32) FORM ipc2581map ipc2581_mapping cell 8,2 
+\i (00:01:32) FORM ipc2581map ipc2581_mapping change 8,2 yes 
+\i (00:01:33) FORM ipc2581map ipc2581_mapping cell 3,2 
+\i (00:01:33) FORM ipc2581map ipc2581_mapping change 3,2 yes 
+\i (00:01:37) FORM ipc2581map ipc2581_mapping change 3,2 no 
+\i (00:01:38) FORM ipc2581map ipc2581_mapping cell 8,2 
+\i (00:01:38) FORM ipc2581map ipc2581_mapping change 8,2 no 
+\i (00:02:36) FORM ipc2581map ipc2581_mapping cell 1,4 
+\i (00:02:36) FORM ipc2581map ipc2581_mapping change 1,4 yes 
+\i (00:02:38) FORM ipc2581map ipc2581_mapping cell 8,2 
+\i (00:02:38) FORM ipc2581map ipc2581_mapping change 8,2 yes 
+\i (00:02:39) FORM ipc2581map ipc2581_mapping cell 3,2 
+\i (00:02:39) FORM ipc2581map ipc2581_mapping change 3,2 yes 
+\i (00:02:41) FORM ipc2581map ipc2581_mapping cell 4,4 
+\i (00:02:41) FORM ipc2581map ipc2581_mapping change 4,4 yes 
+\i (00:02:42) FORM ipc2581map ipc2581_mapping cell 5,4 
+\i (00:02:42) FORM ipc2581map ipc2581_mapping change 5,4 yes 
+\i (00:02:43) FORM ipc2581map ipc2581_mapping cell 6,4 
+\i (00:02:43) FORM ipc2581map ipc2581_mapping change 6,4 yes 
+\i (00:02:47) FORM ipc2581map close  
+\i (00:02:47) setwindow pcb
+\i (00:02:47) generaledit 
+\i (00:02:48) setwindow form.ipc2581_out
+\i (00:02:48) FORM ipc2581_out export  
+\t (00:02:48) Starting Exporting IPC2581 File...
+\t (00:02:50) IPC2581 output completed.
+\i (00:02:51) setwindow pcb
+\i (00:02:51) setwindow text
+\i (00:02:51) close
+\i (00:02:52) setwindow form.ipc2581_out
+\i (00:02:52) FORM ipc2581_out cancel  
+\i (00:02:53) setwindow pcb
+\i (00:02:53) generaledit 
+\i (00:02:59) pick grid 7527.92 12048.58
+\t (00:02:59) last pick:  7500.00 12000.00
+\i (00:03:01) zoom in 1 
+\i (00:03:01) setwindow pcb
+\i (00:03:01) zoom in 14630.91 12502.46
+\i (00:03:01) trapsize 1474
+\i (00:03:01) zoom out 1 
+\i (00:03:01) setwindow pcb
+\i (00:03:01) zoom out 13938.29 12564.35
+\i (00:03:01) trapsize 2947
+\i (00:03:08) save_as 
+\i (00:03:29) fillin "PCB-DIAPAZON880.brd"
+\i (00:03:30) generaledit 
+\i (00:03:31) exit 
+\t (00:03:31)     Journal end - Fri Sep 05 11:57:41 2025

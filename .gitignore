@@ -1,0 +1,13 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore Node.js dependencies (HUGE folders)
+node_modules/
+
+# Ignore Python virtual environments
+venv/
+.env
+
