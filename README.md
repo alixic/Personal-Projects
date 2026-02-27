@@ -13,3 +13,5 @@
 
 
  There are no days to pass without learning new stuff by myself which helps me to aquire new information that I am going to use in designing and creating useful devices/equipments which improve lifestyle or solve existent problems.
+
+ New projects coming soon!
