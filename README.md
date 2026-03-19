@@ -36,7 +36,7 @@ Where I combined PCB design, circuit design, firmware programming, wiring, power
 <b>Note:</b> This project is well documented!
 </blockquote>
 <div align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="SMCA_PA Project" width="600">
+  <img src="Proiect-SMCA-PA/imagini-proiect/IMG_20250511_022355.jpg" alt="SMCA_PA Project" width="600">
 </div>
 </details>
 
