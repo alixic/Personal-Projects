@@ -13,14 +13,16 @@ This repo contains every personal project I've made. A part of them are more sof
 ## Featured Projects Section
 <sub>(<b>HW</b> -> Hardware oriented | <b>SW</b> -> Software oriented)</sub>
 
-<br />
 
-<details open>
+
+<details>
 <summary><b> Proiect-portable-eFan </b> (HW+SW)</summary>
 <br />
 <blockquote>
 My handheld portable electronic Fan, used for active cooling surfaces and for cleaning, like computer maintenance. The PCB layout and the firmware are entirely developed by me. I soldered and assembled each component using my lab tools and after this step I enclosed everything inside an electrical wiring box, for  simplicity. This is the latest project I uploaded so far. 
 </blockquote
+
+
 
 <details>
 <summary><b> Proiect-SMCA_PA</b> (HW+SW)</summary>
@@ -33,6 +35,7 @@ Where I combined PCB design, circuit design, firmware programming, wiring, power
 </blockquote>
 
 </details>
+
 
 <details>
 <summary><b> Robot-electronic-monitozirare-si-control</b> (HW+SW)</summary>
