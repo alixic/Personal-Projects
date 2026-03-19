@@ -7,8 +7,9 @@
 
 ### Overview
 This repo contains every personal project I've made. A part of them are more software-oriented while the majority are related to embedded firmware development and hardware design like circuit & pcb layout design.
-I've developed multiple firmwares for multiple cool microcontroller based projects : <strong>Gaming Console (gameboy)</strong>, <strong>Mini Sumo Jsumo robot kit</strong> <br>
-All projects define my interest in electronics and programming while validating my knowledge in related fields.
+I've developed multiple firmwares for multiple cool microcontroller based projects : <strong>Gaming Console (gameboy)</strong>, <strong>Mini Sumo Jsumo robot kit</strong> <br>.
+
+Each project defines my interest in electronics and programming while validating my knowledge in related fields. Being involved in such practical activities helped me gain a lot of experience to engineer stuff.
 
 ---
 
