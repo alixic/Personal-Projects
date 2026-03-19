@@ -20,7 +20,7 @@ This repo contains every personal project I've made. A part of them are more sof
 <br />
 <blockquote>
 My handheld portable electronic Fan, used for active cooling surfaces and for cleaning, like computer maintenance. The PCB layout and the firmware are entirely developed by me. I soldered and assembled each component using my lab tools and after this step I enclosed everything inside an electrical wiring box, for  simplicity. This is the latest project I uploaded so far. 
-</blockquote
+</blockquote>
 
 
 
