@@ -47,11 +47,11 @@ Where I combined PCB design, circuit design, firmware programming, wiring, power
 My own autonomous robot, remote controlled, built using modules. I started my journey in embedded systems development with this project.
 </blockquote>
 <div align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="Robot Project top" width="600">
+  <img src="Robot-electronic-monitorizare-si-control/top_view_robot.png" alt="Robot Project top" width="600">
 </div>
 
 <div align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="Robot Project bottom" width="600">
+  <img src="Robot-electronic-monitorizare-si-control/bottom_view_robot.png" alt="Robot Project bottom" width="600">
 </div>
 </details>
 
