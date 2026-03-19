@@ -1,36 +1,64 @@
-My Personal Projects Portfolio
+<div align="center">
+  <h1> My Personal Projects Portfolio</h1>
+  <p><i>Building the bridge between Hardware and Software</i></p>
+</div>
+
+---
+
+### 📖 Overview
 This repo contains every personal project I've made. A part of them are more software-oriented while the majority are related to embedded firmware development / hardware design.
 
-The most interesting and complex projects I have made are the following:
-(HW -> Hardware oriented, SW -> Software oriented)
+---
 
-Proiect-SMCA_PA
-Type: HW+SW
+## Featured Projects Section
+<sub>(<b>HW</b> -> Hardware oriented | <b>SW</b> -> Software oriented)</sub>
 
-"Statie de masurarea a calitatii aerului si a parametrilor ambientali"
+<br />
 
+<details open>
+<summary><b> Proiect-SMCA_PA</b> (HW+SW)</summary>
+<br />
+<blockquote>
+<b>"Statie de masurarea a calitatii aerului si a parametrilor ambientali"</b><br />
 Where I combined PCB design, circuit design, firmware programming, wiring, power conversion and renewable energy (solar).
+<br /><br />
+<b>Note:</b> This project is well documented!
+</blockquote>
 
-Note: This project is well documented!
+</details>
 
-Robot-electronic-monitozirare-si-control
-Type: HW+SW
+<details>
+<summary><b> Robot-electronic-monitozirare-si-control</b> (HW+SW)</summary>
+<br />
+<blockquote>
+My own autonomous robot, remote controlled, built using modules. I started my journey in embedded systems development with this project.
+</blockquote>
 
-My own autonomous robot, remote controlled, built using modules.
+</details>
 
-I started my journey in embedded systems development with this project.
-
-
-Proiect-desgin-amplificator-audio-de-putere
-Type: HW
-
+<details>
+<summary><b> Proiect-desgin-amplificator-audio-de-putere</b> (HW)</summary>
+<br />
+<blockquote>
 PCB & circuit design for the power amplifier.
+</blockquote>
 
+</details>
 
-
-Proiect-program-cybersec-phishing-malicious-mail-detection-tool
-Type: SW
-
+<details>
+<summary><b> Proiect-program-cybersec-phishing-malicious-mail-detection-tool</b> (SW)</summary>
+<br />
+<blockquote>
 This is a python app designed for reducing and preventing Phishing attacks occurred in enterprises, improving the internal security of each employee.
+</blockquote>
 
+</details>
+
+---
+
+### Continuous Learning
 There are no days to pass without learning new stuff by myself which helps me to acquire new information that I am going to use in designing and creating useful devices/equipments which improve lifestyle or solve existent problems.
+
+<div align="center">
+  <b> New projects coming soon! </b>
+</div>
