@@ -1,6 +1,6 @@
 <div align="center">
   <h1> My Personal Projects Portfolio</h1>
-  <p><i>Building the bridge between Hardware and Software</i></p>
+  <p><i>Where Hardware and Software meet up</i></p>
 </div>
 
 ---
