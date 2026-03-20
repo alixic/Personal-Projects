@@ -75,9 +75,6 @@ PCB & circuit design for the power amplifier.
 <blockquote>
 This is a python app designed for reducing and preventing Phishing attacks occurred in enterprises, improving the internal security of each employee.
 </blockquote>
-<div align="center">
-  <img src="YOUR_IMAGE_PATH_HERE" alt="Phishing Detection Tool" width="600">
-</div>
 </details>
 
 ---
